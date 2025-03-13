@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #F7F7F7;
+    color: #7D7974;
+}
+
+/* navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background: white;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.btn-contact {
+    background: black;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 10%;
+    gap: 50px;
+}
+
+.info {
+    max-width: 400px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 16px;
+    color: #7D7974;
+}
+
+.subtitle {
+    margin: 0;
+    font-size: 64px;
+    line-height: 64px;
+    color: #005CCB;
+}
+
+.description {
+    margin: 0;
+    font-size: 16px;
+    color: #7D7974;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+.btn {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 16px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.btn-primary {
+    background: #005CCB;
+    color: white;
+}
+.btn-secundary{
+    background: #EBF5FE;
+    color: #005CCB;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 130px;
+    gap: 20px;
+
+}
+.about .text {
+    max-width: 305px;
+}
+.about h2 {
+    margin: 0;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.about img {
+    margin: 0;
+    width: 312.76px;
+    height: 226.86px;
+}
