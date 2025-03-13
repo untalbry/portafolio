@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #F7F7F7;
+    color: #7D7974;
+}
+
+/* navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background: white;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-contact {
+    background: black;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}

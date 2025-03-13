@@ -2,32 +2,82 @@
 <head>
     <meta charset = "UTF-8">
     <meta name="viewport" content="width=device'width, initial-scale=1.0">
-    <title>Mi web</title>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <title>untalbry's portafolio</title>
+    
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="index.html">Proyectos</a></li>
-            <li><a href="#">Contáctame</a></li>
-        </ul>
-    </nav>
-
     <header>
-        <h1>untalbry's portafolio</h1>
-        <p>I'm untalbry, backend developer, system analyst and UX / UI  desinger</p>
+        <div class="logo">untalbry</div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#" class="btn-contact">Contáctame</a></li>
+            </ul>
+        </nav>
     </header>
-    <section id="contactame">
-        <h1>Contáctame</h1>
-        <form>
-            <label>Nombre: <input type="text" name="nombre"></label><br>
-            <label>Email: <input type="email", name="email"></label><br>
-            <label>Mensaje: <textarea name="mensaje"></textarea></label><br>
-            <input type="submit" value="Enviar">
-        </form>
-    </section>
 
+    <section class="contact">
+        <div class="contact-info">
+            <h1 class="portfolio-text">untalbry's portfolio<h1/>
+            <h2 class="subtitle">Contáctame</h2>
+            <p class="description">Contact developer Bryan Castro Sánchez to learn more about him and his projects.</p>
+            
+            <div class="buttons">
+                <a href="#" class="btn btn-secundary">Resume</a>
+                <a href="#" class="btn btn-primary">Proyectos</a>
+            </div>
+            
+            <img src="static/mailbox.svg" alt="Mailbox illustration" class="mailbox-img">
+        </div>
+        
+        <div class="contact-form">
+            <form>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name" class="required">Name</label>
+                        <input type="text" id="name" placeholder="Ada" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname" class="required">Last name</label>
+                        <input type="text" id="lastname" placeholder="Lovelace" required>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email" class="required">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company" class="required">Company</label>
+                        <input type="text" id="company" required>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="country" class="required">Country or region</label>
+                        <input type="text" id="country" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone" class="required">Phone number</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message" class="required">Tell me more</label>
+                    <textarea id="message" placeholder="I have something to tell you!" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Send message</button>
+            </form>
+        </div>
+    </section>
 
 
 </body>

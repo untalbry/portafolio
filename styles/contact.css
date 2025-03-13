@@ -1,0 +1,108 @@
+/* contact section styles */
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 10%;
+    gap: 50px;
+}
+
+.contact-info {
+    max-width: 412px;
+}
+h1 {
+    margin: 0;
+    font-size: 16px;
+    color: #7D7974;
+}
+.subtitle{
+    margin: 0;
+    font-size: 64px;
+    line-height: 64px;
+    color: #005CCB;
+}
+
+.description {
+    margin: 0;
+    font-size: 16px;
+    color: #7D7974;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+.btn {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 16px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.btn-primary {
+    background: #005CCB;
+    color: white;
+}
+.btn-secundary{
+    background: #EBF5FE;
+    color: #005CCB;
+}
+
+.mailbox-img {
+    width: 410.09px;
+    margin-top: 40px;
+}
+
+
+/* Form styles */
+.contact-form {
+    flex: 1;
+}
+
+.form-row {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.required::after {
+    content: " *";
+    color: #005CCB;
+}
+
+input, textarea {
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.submit-btn {
+    background-color: black;
+    color: white;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 1rem;
+}
