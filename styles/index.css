@@ -185,14 +185,14 @@ h1 {
     width: 100%;
 }
 
-.title-subtitle h2 {
+.title-subtitle h3 {
     font-size: 16px;
     color: black;
     font-weight: bold;
     margin: 0;
 }
 
-.title-subtitle h3 {
+.title-subtitle h4 {
     font-size: 16px;
     color: #7D7974;
     font-weight: bold;
