@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; /*https://midu.dev/que-es-y-para-que-sirve-box-sizing-border-box/*/
+    scroll-behavior: smooth;
 }
 
 body {
@@ -13,7 +14,11 @@ body {
 
 /* navbar */
 nav {
+    top: 0;
+    width: 100%;
+    position: fixed;    
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 15px 5%;
