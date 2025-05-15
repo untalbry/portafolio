@@ -34,6 +34,7 @@ h1 {
 .buttons {
     margin-top: 20px;
 }
+
 .btn {
     text-decoration: none;
     font-weight: bold;
@@ -46,7 +47,8 @@ h1 {
     background: #005CCB;
     color: white;
 }
-.btn-secundary{
+
+.btn-secundary {
     background: #EBF5FE;
     color: #005CCB;
 }
@@ -69,9 +71,11 @@ h1 {
     gap: 20px;
 
 }
+
 .about .text {
     max-width: 305px;
 }
+
 .about h2 {
     margin: 0;
     color: black;
@@ -79,8 +83,127 @@ h1 {
     margin-bottom: 10px;
     font-weight: bold;
 }
+
 .about img {
     margin: 0;
     width: 312.76px;
     height: 226.86px;
+}
+
+
+.changelog-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 60px 130px;
+    gap: 32px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.timeline-item {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.connector {
+    position: relative;
+    height: 100%;
+    margin-right: 64px;
+    width: 1px;
+    background: #D9D9D9;
+}
+
+.connector::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -11px;
+    display: block;
+    width: 23px;
+    height: 23px;
+    background: #00833F; 
+    border: 9px solid #94C9AD; 
+    border-radius: 100%;
+}
+
+.timeline-item:not(:last-child) .connector::after {
+    content: '';
+    position: absolute;
+    top: 48px;
+    left: 9px;
+    width: 1px;
+    background: #D9D9D9;
+    height: calc(100% + 82px); /* Match the gap between items */
+}
+
+/* Specific colors for each timeline item */
+.timeline-item:nth-child(1) .connector::before {
+    background: #00833F; 
+    border-color: #94C9AD;
+}
+
+.timeline-item:nth-child(2) .connector::before {
+    background: #1F77F2; 
+    border-color: #A6C8FF;
+}
+
+.timeline-item:nth-child(3) .connector::before {
+    background: #2867F3; 
+    border-color: #A6C8FF;
+}
+
+.timeline-item:nth-child(4) .connector::before {
+    background: #FF5C30; 
+    border-color: #FFBEA6;
+}
+
+.timeline-item:nth-child(5) .connector::before {
+    background: #8D5AF8; 
+    border-color: #D2BCFF;
+}
+
+.timeline-content {
+    flex: 1;
+    max-width: 800px;
+}
+
+.timeline-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.title-subtitle h2 {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    margin: 0;
+}
+
+.title-subtitle h3 {
+    font-size: 16px;
+    color: #7D7974;
+    font-weight: bold;
+    margin: 0;
+}
+
+.timeline-date {
+    font-size: 16px;
+    color: #555;
+    font-weight: 500;
+    margin: 0;
+}
+
+.description {
+    margin-top: 16px;
+    color: #7D7974;
+    font-size: 14px;
+    font-weight: 500;
+    margin-block: 1em; /*Por si no se soporta lh*/
+    margin-block: 1lh; 
 }
