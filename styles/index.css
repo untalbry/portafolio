@@ -1,4 +1,9 @@
 /* Hero Section */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .hero {
     display: flex;
     align-items: center;
@@ -183,6 +188,9 @@ h1 {
     align-items: flex-start;
     margin-bottom: 16px;
     width: 100%;
+    padding: 0;
+    background: none;
+    border-bottom: 0;
 }
 
 .title-subtitle h3 {
