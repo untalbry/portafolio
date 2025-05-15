@@ -1,12 +1,16 @@
+.container {
+    width: min(100%, 50%);
+    margin:  100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}
 /* Hero Section */
-
-
 .hero {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 50px 10%;
-    gap: 50px;
+    justify-content: space-between;
+    padding: 0;
 }
 
 .info {
@@ -31,16 +35,17 @@ h1 {
     font-size: 16px;
     color: #7D7974;
     font-weight: bold;
+    margin-block: 1lh;
 }
 
 .buttons {
-    margin-top: 20px;
+    display: flex;
 }
 
 .btn {
     text-decoration: none;
     font-weight: bold;
-    padding: 10px 16px;
+    padding: .75rem 1rem;
     margin-right: 10px;
     border-radius: 8px;
 }
@@ -69,9 +74,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 130px;
     gap: 20px;
-
 }
 
 .about .text {
@@ -101,7 +104,6 @@ h1 {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    padding: 60px 130px;
     gap: 32px;
     max-width: 600px;
     margin: 0 auto;
