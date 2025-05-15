@@ -1,10 +1,15 @@
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /*https://midu.dev/que-es-y-para-que-sirve-box-sizing-border-box/*/
+}
+
+body {
+    font-family: Arial, sans-serif;
     background: #F7F7F7;
     color: #7D7974;
 }
+
 
 /* navbar */
 nav {

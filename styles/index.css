@@ -1,8 +1,5 @@
 /* Hero Section */
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 .hero {
     display: flex;
