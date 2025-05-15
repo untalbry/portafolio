@@ -76,7 +76,7 @@ h1 {
     max-width: 305px;
 }
 
-.about h2 {
+.text > h2 {
     margin: 0;
     color: black;
     font-size: 16px;
@@ -100,6 +100,13 @@ h1 {
     gap: 32px;
     max-width: 600px;
     margin: 0 auto;
+}
+.changelog-section > h2 {
+    margin: 0;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .timeline-item {
