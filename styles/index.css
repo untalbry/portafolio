@@ -88,6 +88,9 @@ h1 {
     margin-bottom: 10px;
     font-weight: bold;
 }
+.text > p {
+    margin-block: 1lh;
+}
 
 .about img {
     margin: 0;
