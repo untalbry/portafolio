@@ -5,17 +5,13 @@
   flex-direction: column;
   gap: 8rem;
 }
-@media screen and (max-width: 1600px) {
-  .container {
-    width: min(100%, 50%);
-  }
-}
+
 /* Hero Section */
 .hero {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 0;
+  gap: 2rem;
 }
 
 .info {
@@ -67,10 +63,19 @@ h1 {
 }
 
 .profile img {
-  width: 200px;
   height: 200px;
+  width: 200px;
   border-radius: 50%;
   object-fit: cover;
+}
+@media screen and (max-width: 1080px) {
+  .container {
+    width: min(100%, 50%);
+  }
+  .hero {
+    flex-direction: column-reverse;
+    padding: 0;
+  }
 }
 
 .about {
