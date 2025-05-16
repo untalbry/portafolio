@@ -148,7 +148,7 @@ h1 {
   left: 9px;
   width: 1px;
   background: #d9d9d9;
-  height: calc(100% + 82px); /* Match the gap between items */
+  height: 82px; /* Match the gap between items */
 }
 
 /* Specific colors for each timeline item */

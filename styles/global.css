@@ -25,6 +25,7 @@ nav {
     background: white;
     border-bottom: 1px solid #D9D9D9;
     height: 50px;
+    z-index: 1000;
 }
 
 .logo {
