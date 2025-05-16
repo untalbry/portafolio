@@ -68,15 +68,6 @@ h1 {
   border-radius: 50%;
   object-fit: cover;
 }
-@media screen and (max-width: 1080px) {
-  .container {
-    width: min(100%, 50%);
-  }
-  .hero {
-    flex-direction: column-reverse;
-    padding: 0;
-  }
-}
 
 .about {
   display: flex;
@@ -228,4 +219,40 @@ h1 {
   font-weight: 500;
   margin-block: 1em; /*Por si no se soporta lh*/
   margin-block: 1lh;
+}
+
+@media screen and (max-width: 1080px) {
+  .container {
+    width: min(100%, 50%);
+  }
+  .hero {
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+  .about{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 420px) {
+  .container {
+    width: 80%;
+  }
+  .hero {
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+  h1 {
+  font-size: 12px;
+}
+.subtitle {
+  font-size: 60px;
+}
+.description{
+  line-height: 1lh;
+
+}
+
+  .about{
+    flex-direction: column;
+  }
 }
